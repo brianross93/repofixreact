@@ -1,5 +1,6 @@
 import React from 'react';
 import Content from './Content';
+import CardComponent from './CardComponent';
 import Header from './Header';
 
 export default function HomeTab() {
@@ -7,6 +8,8 @@ export default function HomeTab() {
     <div>
     <Header/>
     <Content/>
+    <br></br>
+    <CardComponent/>
     </div>
   );
 }
